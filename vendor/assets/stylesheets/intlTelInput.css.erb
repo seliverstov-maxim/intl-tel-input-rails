@@ -1475,7 +1475,7 @@
 	width:20px;
 	height:15px;
 	box-shadow:0px 0px 1px 0px #888;
-	background-image: image-url("flags.png");
+	background-image: url(<%= asset_path 'flags.png' %>);
 	background-color:#DBDBDB;
 	background-position:100% 100%
 }
@@ -1483,7 +1483,7 @@
 {
 .iti-flag
 {
-	background-image: image-url("flags@2x.png");
+	background-image: url(<%= asset_path 'flags@2x.png' %>);
 }
 
 }
